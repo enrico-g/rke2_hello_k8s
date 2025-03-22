@@ -1,0 +1,4 @@
+defaultNamespace: testns  # Ensure Fleet deploys to the correct namespace
+helm:
+  releaseName: myapp
+  chart: ./manifests
